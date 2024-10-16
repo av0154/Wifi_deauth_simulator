@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WiFi Deauth Simulator</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>WiFi Deauthentication Attack Simulator</h1>
+    <form id="deauthForm">
+        <label for="target_mac">Target MAC:</label>
+        <input type="text" id="target_mac" required><br>
+        
+        <label for="ap_mac">AP MAC:</label>
+        <input type="text" id="ap_mac" required><br>
+        
+        <label for="iface">Interface:</label>
+        <input type="text" id="iface" required><br>
+        
+        <button type="submit">Start Attack</button>
+    </form>
+    <div id="result"></div>
+</body>
+</html>
